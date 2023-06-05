@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="imagenes/click.png">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <div class="vector">
+            <img src="imagenes/Vector.png" >
+        </div>
+    </header>
+    <main>
+        <textarea id="txt-one" class="txt-uno" placeholder="Ingrese tu texto aqui"></textarea>
+        <div class="rect">
+            <textarea id="txt-two" class="txt-dos"></textarea>
+        </div>
+        <div>
+            <img src="imagenes/Vector (1).png" class="vector1">
+            <!--<input type="text" class="txt-tres" value="Apenas letras minúsculas y sin acento.">-->
+            <label class="txt-tres">Apenas letras minúsculas y sin acento.</label>
+        </div>
+        <div>
+            <button type="button" id="btnE" class="btn-encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" id="btnD" class="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
